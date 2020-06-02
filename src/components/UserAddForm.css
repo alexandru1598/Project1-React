@@ -1,0 +1,52 @@
+h2 {
+    font-style: italic;
+}
+
+.user-add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-add-form input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color:white;
+    border-radius:2em;
+}
+
+.user-add-form label {
+    font-weight: bold;
+}
+
+input.submit {
+    padding:0.3rem 1.2rem;
+    margin:1rem 0.3rem 0.3rem 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:bold;
+    color:black;
+    background-color:#00b257;
+    text-align:center;
+    cursor: pointer;
+    outline-style: none;
+}
+
+input.upload-image {
+    margin-left: 4.9rem;
+    background-color: white;
+    border-radius:0;
+}
+
+.gold-client {
+   
+}
+
+.gold-client-label {
+    margin-right: 0.5rem;
+}
+
+
+

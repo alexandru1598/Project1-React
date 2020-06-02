@@ -1,0 +1,32 @@
+.user-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.user-item img {
+    text-align: center;
+    margin: auto;
+}
+
+.user-item p {
+    font-weight: bold;
+}
+
+.user-item button {
+    text-align: center;
+    width: 6rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:bold;
+    color:black;
+    background-color:#bb372a;
+    text-align:center;
+    cursor: pointer;
+    outline-style: none;
+}
