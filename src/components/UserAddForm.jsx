@@ -41,23 +41,19 @@ class UserAddForm extends React.Component {
         let emailError="";
         let mailFormat = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 
-        if(this.state.name.value === " ") {
+        if(!this.state.name) {
             nameError = 'Name cannot be empty!';
-        }
-        if(nameError) {
-            this.setState({nameError});
-            return false;
         }
     
         if(!this.state.email.match(mailFormat)) {
           emailError = 'Invalid Email!';
         }
-        if(emailError) {
-          this.setState({emailError});
+        if(emailError || nameError) {
+          this.setState({emailError, nameError});
           return false;
         }
         return true;
-      }
+      };
 
     handleSubmit(event) {
         event.preventDefault();
